@@ -1,0 +1,179 @@
+body, div{
+	margin: 0;
+	padding: 0;
+}
+.main {
+	background: url('../img/bg.png') no-repeat;
+	background-size: 100%;
+	background-color: #d2e6f9;
+	overflow: hidden;
+	min-height: 100vh;
+}
+.copyright {
+	font-size: 12px;
+	color: #fff;
+	width: 100vw;
+	text-align: center;
+	margin-top: 5vh;
+	margin-bottom: 1vh;
+}
+.logo1 {
+	margin-top: 15vh;
+	margin-left: 10vw;
+	width: 85vw;
+}
+.logo2 {
+	margin-top: 7vh;
+	margin-left: 5vw;
+	width: 100vw;
+	position: relative;
+}
+.logo2 img {
+	margin: 0;
+	width: 35vw;
+}
+.logo2 span {
+	color: #fff;
+	font-size: 40px;
+	position: absolute;
+	top: 3vh;
+	left: 30vw;
+}
+.logo3 {
+	margin-top: 15vh;
+	margin-left: 15vw;
+	width: 60vw;
+}
+.begin {
+	width: 200px;
+	height: 50px;
+	background: rgba(255, 93, 93, 0.6);
+	margin: 30vh auto 0;
+	border-radius: 60px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 26px;
+	color: #fff;
+}
+.form {
+	padding-top: 10vh;
+	width: 100vw;
+}
+.input {
+	font-size: 20px;
+	margin:0vh 10vw;
+	margin-top: 2.4vh;
+}
+.input span {
+	color: #e5e7f6;
+}
+.input input, .select{
+	margin-left: 3vw;
+	height: 11vw;
+	width: 60vw;
+	border-radius: 10px;
+	background: none;
+	border: 2px solid #7e85ab;
+	font-size: 16px;
+	outline: none;
+	padding: 0 10px;
+	box-sizing: border-box;
+	color: #FF7A40;
+	vertical-align: middle;
+}
+.select {
+	display: inline-block;
+	white-space: nowrap;
+	line-height: 9vw;
+	overflow: hidden;
+}
+.sex {
+	margin-left: 3vw;
+	display: inline-block;
+	vertical-align: middle;
+}
+.sex div{
+	font-size: 16px;
+	height: 11vw;
+	line-height: 9vw;
+	color: #e5e7f6;
+	float: left;
+	width: 30vw;
+	text-align: center;
+	border: 2px solid #7e85ab;
+	box-sizing: border-box;
+}
+.boy {
+	background: #FF7A40;
+	border-radius: 10px 0px 0px 10px;
+	border-right: none !important;
+}
+.girl {
+	border-radius: 0px 10px 10px 0px;
+}
+.button {
+	width: 130px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 6vh;
+	background: rgba(255, 93, 93, 0.6);
+	border-radius: 25px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.select-box {
+	z-index: 10;
+	position: fixed;
+	bottom: 0;
+	background: #7e85ab;
+	height: 40vw;
+	width: 100vw;
+	text-align: center;
+	color: #fff;
+	line-height: 40px;
+	overflow-y: scroll;
+}
+.select-item {
+	height: 40px;
+	border-bottom: 1px solid #fff;
+}
+.selectbg {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	bottom: 0;
+	z-index: 10;
+}
+.content {
+	margin-bottom: 26vh;
+	color: #fff;
+	font-size: 20px;
+	padding: 0 16vw;
+}
+.content-word {
+	margin-top: 6px;
+	text-indent:2em;
+}
+.loading{
+    width: 30px;
+    height: 30px;
+    border: 2px solid;
+    border-color: #fff #fff transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+    /*动画时间1s，线性变化，无限循环*/
+    animation: loading 1s linear infinite;
+}
+@keyframes loading{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

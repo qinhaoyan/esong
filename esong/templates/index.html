@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>英悦重邮</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" href="../static/css/englishsong.css">
+</head>
+<body>
+	<div class="main" id="main">
+		<div class="begin-page" id="beginPage">
+			<img src="../static/img/logo1.png" alt="" class="logo1" >
+			<div class="begin" id="begin">开始报名</div>
+		</div>
+		<div class="form" id="form" style="display: none">
+			<div class="logo2">
+				<img src="../static/img/logo2.png" alt="" class="logo2">
+				<span>报名信息</span>
+			</div>
+			<div class="input">
+				<span>姓名</span>
+				<input type="text">
+			</div>
+			<div class="input">
+				<span>性别</span>
+				<div class="sex" id="sex" data-sex='男'>
+					<div class="boy" id="boy">男</div>
+					<div class="girl" id='girl'>女</div>
+				</div>
+			</div>
+			<div class="input">
+				<span>学号</span>
+				<input type="text">
+			</div>
+			<div class="input">
+				<span>学院</span>
+				<div class="select" id="select"></div>
+			</div>
+			<div class="input">
+				<span>电话</span>
+				<input type="text">
+			</div>
+			<div class="button" id="button">
+				<div class="button-word" id="buttonWord" >报名</div>
+				<div class="loading" id="loading" style="display: none"></div>
+			</div>
+			<div class="selectbg" id="selectbg" style="display: none">
+				<div class="select-box" id="selectBox" style="display: none">
+					<div class="select-item">通信与信息工程学院</div>
+					<div class="select-item">计算机科学与技术学院</div>
+					<div class="select-item">自动化学院</div>
+					<div class="select-item">先进制造工程学院</div>
+					<div class="select-item">光电工程学院/重庆国际半导体学院</div>
+					<div class="select-item">软件工程学院</div>
+					<div class="select-item">生物信息学院</div>
+					<div class="select-item">理学院</div>
+					<div class="select-item">经济管理学院/现代邮政学院</div>
+					<div class="select-item">传媒艺术学院</div>
+					<div class="select-item">外国语学院</div>
+					<div class="select-item">国际学院</div>
+					<div class="select-item">网络空间安全与信息法学院</div>
+					<div class="select-item">马克思主义学院</div>
+					<div class="select-item">体育学院</div>
+				</div>
+			</div>
+		</div>
+		<div class="success" id="success" style="display: none">
+			<img src="../static/img/logo1.png" alt="" class="logo3">
+			<div class="content">
+				<div class="name" id="name">秦浩严同学</div>
+				<div class="content-word">你已成功报名重庆邮电大学第二届“英悦重邮”歌手大赛，初赛信息我们将以短信形式通知，请注意查收。</div>
+			</div>
+		</div>
+		<div class="copyright">Copyright &copy; 重庆邮电大学学生会宣传部</div>
+	</div>
+</body>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="../static/js/englishsong.js"></script>
+</html>
